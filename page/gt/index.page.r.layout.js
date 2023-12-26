@@ -5,8 +5,20 @@ import { px } from '@zos/utils';
 
 export const { width: DEVICE_WIDTH, height: DEVICE_HEIGHT } = getDeviceInfo();
 
+export const DRINK_WATER_TITLE = {
+  text: getText('appName'),
+  x: px(0),
+  y: px(64),
+  w: px(480),
+  h: px(46),
+  color: 0xffffff,
+  text_size: px(36),
+  align_h: hmUI.align.CENTER_H,
+  align_v: hmUI.align.CENTER_V,
+};
+
 export const TEXT_STYLE = {
-  text: getText('Index'),
+  text: getText('appName'),
   x: px(42),
   y: px(200),
   w: DEVICE_WIDTH - px(42) * 2,

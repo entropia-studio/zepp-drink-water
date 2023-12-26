@@ -1,9 +1,9 @@
 import * as hmUI from '@zos/ui';
 import { log as Logger } from '@zos/utils';
 import {
+  DRINK_WATER_TITLE,
   PROGRESS_BAR_BACKGROUND,
   PROGRESS_BAR_PERCENTAGE,
-  TEXT_STYLE,
 } from 'zosLoader:./index.page.[pf].layout.js';
 import { isSquare } from '../../utils/constants';
 
@@ -25,7 +25,7 @@ Page({
   },
   build() {
     logger.debug('page Index build invoked');
-    hmUI.createWidget(hmUI.widget.TEXT, TEXT_STYLE);
+    hmUI.createWidget(hmUI.widget.TEXT, DRINK_WATER_TITLE);
     try {
       !isSquare && this.roundProgressBar(65);
     } catch (error) {

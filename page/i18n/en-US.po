@@ -1,6 +1,6 @@
 
 msgid "appName"
-msgstr "Hello World"
+msgstr "Drink water"
 
 msgid "index"
 msgstr "Index"
