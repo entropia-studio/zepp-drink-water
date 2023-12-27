@@ -2,5 +2,5 @@
 msgid "appName"
 msgstr "Drink water"
 
-msgid "index"
-msgstr "Index"
+msgid "unit"
+msgstr "ml"
